@@ -30,7 +30,6 @@
                             Console.WriteLine($"{todoNum++}. {TODO}");
                         }
                     }
-                    Console.WriteLine("\nPress Any key to continue...");
                     ClearConsole();
                     return true;
                 case "A":
@@ -44,7 +43,6 @@
                     {
                         Console.WriteLine("Incorrect Input!");
                     }
-                    Console.WriteLine("\nPress Any key to continue...");
                     ClearConsole();
                     return true;
                 case "U":
@@ -62,21 +60,18 @@
                         if (idx > TODOs.Count)
                         {
                             Console.WriteLine("Index out of bound...");
-                            Console.WriteLine("\nPress Any key to continue...");
                             ClearConsole();
                         }
                         else
                         {
                             Console.Write("Enter updated TODO : ");
                             TODOs[--idx] = Console.ReadLine();
-                            Console.WriteLine("\nPress Any key to continue...");
                             ClearConsole();
                         }
                     }
                     else
                     {
                         Console.WriteLine("TODO list is empty...");
-                        Console.WriteLine("\nPress Any key to continue...");
                         ClearConsole();
                     }
                     return true;
@@ -106,7 +101,6 @@
                     else
                     {
                         Console.WriteLine("TODO list is empty...");
-                        Console.WriteLine("\nPress Any key to continue...");
                         ClearConsole();
                     }
                     return true;
@@ -117,13 +111,13 @@
             }
         }
         Console.WriteLine("Invalid Input");
-        Console.WriteLine("Enter any key to Try again...");
         ClearConsole();
         return true;
     }
 
     private static void ClearConsole()
     {
+        Console.WriteLine("\nPress Any key to continue...");
         Console.ReadKey();
         Console.Clear();
     }
@@ -131,7 +125,6 @@
     private static void Main(string[] args)
     {
         Console.WriteLine("Hello, Welcome to TODOs...");
-        Console.WriteLine("Press any key to start app...");
         ClearConsole();
 
         List<string> options = new List<string>()
