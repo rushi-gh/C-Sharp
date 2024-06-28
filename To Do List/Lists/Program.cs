@@ -1,6 +1,6 @@
 ﻿internal class Program
 {
-    private static void Main(string[] args)
+    private static void Main()
     {
         List <int> ints = new List <int> ();
         Console.WriteLine($"Size of ints list : {ints.Count}");
