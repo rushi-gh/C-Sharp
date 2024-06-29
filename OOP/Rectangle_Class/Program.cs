@@ -16,15 +16,9 @@
         Console.WriteLine("--------------------------------");
     }
 
-    public int GetCircumference()
-    {
-        return 2 * (Height + Width);
-    }
+    public int GetCircumference() => 2 * (Height + Width);
 
-    public int GetArea()
-    {
-        return (Width * Height);
-    }
+    public int GetArea() => (Height * Width);
 
     public void Print()
     {
