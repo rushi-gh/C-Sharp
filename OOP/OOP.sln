@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime_Class", "DateTime_Class\DateTime_Class.csproj", "{3AAF0CA5-47BA-426D-B95D-15A7FD3855BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle_Class", "Rectangle_Class\Rectangle_Class.csproj", "{CF2C6F5C-822D-4A0E-84F8-EC878018773B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3AAF0CA5-47BA-426D-B95D-15A7FD3855BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AAF0CA5-47BA-426D-B95D-15A7FD3855BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AAF0CA5-47BA-426D-B95D-15A7FD3855BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2C6F5C-822D-4A0E-84F8-EC878018773B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2C6F5C-822D-4A0E-84F8-EC878018773B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2C6F5C-822D-4A0E-84F8-EC878018773B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2C6F5C-822D-4A0E-84F8-EC878018773B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
