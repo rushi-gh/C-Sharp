@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime_Class", "DateTime_Class\DateTime_Class.csproj", "{3AAF0CA5-47BA-426D-B95D-15A7FD3855BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTime_Class", "DateTime_Class\DateTime_Class.csproj", "{3AAF0CA5-47BA-426D-B95D-15A7FD3855BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle_Class", "Rectangle_Class\Rectangle_Class.csproj", "{CF2C6F5C-822D-4A0E-84F8-EC878018773B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rectangle_Class", "Rectangle_Class\Rectangle_Class.csproj", "{CF2C6F5C-822D-4A0E-84F8-EC878018773B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overloading", "Overloading\Overloading.csproj", "{33644968-A299-421C-AAEF-2FA0C1B1307D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CF2C6F5C-822D-4A0E-84F8-EC878018773B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF2C6F5C-822D-4A0E-84F8-EC878018773B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF2C6F5C-822D-4A0E-84F8-EC878018773B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33644968-A299-421C-AAEF-2FA0C1B1307D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33644968-A299-421C-AAEF-2FA0C1B1307D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33644968-A299-421C-AAEF-2FA0C1B1307D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33644968-A299-421C-AAEF-2FA0C1B1307D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
