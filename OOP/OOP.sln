@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTime_Class", "DateTime_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rectangle_Class", "Rectangle_Class\Rectangle_Class.csproj", "{CF2C6F5C-822D-4A0E-84F8-EC878018773B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overloading", "Overloading\Overloading.csproj", "{33644968-A299-421C-AAEF-2FA0C1B1307D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Overloading", "Overloading\Overloading.csproj", "{33644968-A299-421C-AAEF-2FA0C1B1307D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object Initializers", "Object Initializers\Object Initializers.csproj", "{473D8EB0-1A65-42BD-B418-B40F42FA1D8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{33644968-A299-421C-AAEF-2FA0C1B1307D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33644968-A299-421C-AAEF-2FA0C1B1307D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33644968-A299-421C-AAEF-2FA0C1B1307D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473D8EB0-1A65-42BD-B418-B40F42FA1D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473D8EB0-1A65-42BD-B418-B40F42FA1D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473D8EB0-1A65-42BD-B418-B40F42FA1D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473D8EB0-1A65-42BD-B418-B40F42FA1D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
